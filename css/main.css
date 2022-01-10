@@ -30,10 +30,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
-  height: 100%;
+  background-color: #ffd845;
 }
 
 img {
@@ -42,4 +42,19 @@ img {
 
 .site-main {
   flex-grow: 1;
+}
+
+.header {
+  padding: 50px 0;
+}
+
+.header__body {
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.header__body-heart {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
