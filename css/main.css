@@ -40,6 +40,11 @@ img {
   vertical-align: middle;
 }
 
+.my-container {
+  margin: 0 auto;
+  width: 1318px;
+}
+
 .site-main {
   flex-grow: 1;
 }
@@ -50,11 +55,45 @@ img {
 
 .header__body {
   position: relative;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .header__body-heart {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.hero__body {
+  padding: 0 96px;
+  margin: 0 -18px;
+}
+
+.hero__gross,
+.hero__alphabet {
+  padding: 16px 81px;
+}
+
+.hero__search {
+  padding: 16px 30px;
+}
+
+.hero__button {
+  padding: 16px 64px;
+}
+
+.hero__gross,
+.hero__search,
+.hero__alphabet,
+.hero__button {
+  border: 2px solid #000000;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 18px;
+}
+
+.hero__search-img {
+  margin-left: 120px;
 }
